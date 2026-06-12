@@ -1,0 +1,270 @@
+(.venv) PS C:\src\GoIt\goit-no-sql-2> python scripts\06_hybrid_search.py
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 72034.74it/s]
+Побудовано BM25-індекс для 10000 документів.
+
+==========================================================================================
+Запит: BERT fine-tuning
+
+BM25 top-5:
+1. score=19.1484 | A New Measure of Fine Tuning
+   category=hep-ph | year=2007
+   abstract: The solution to fine tuning is one of the principal motivations for Beyond
+the Standard Model (BSM) Studies. However constraints on new physics indicate
+that many of these BSM models are also fine tuned (although to a mu...
+2. score=17.5338 | The NMSSM Solution to the Fine-Tuning Problem, Precision Electroweak
+  Constraints and the Largest LEP Higgs Event Excess
+   category=hep-ph | year=2007
+   abstract: We present an extended study of how the Next to Minimal
+  Supersymmetric Model easily avoids fine-tuning in electroweak symmetry
+breaking for a SM-like light Higgs with mass in the vicinity of $100\gev$, as
+beautifully c...
+3. score=16.7417 | Fine-Tuning in Brane-antibrane Inflation
+   category=hep-th | year=2007
+   abstract: I give a brief overview of brane-antibrane inflation, with emphasis on the
+problems of tuning to get a flat potential in the KKLMMT framework, and recent
+work on the nature of superpotential corrections in that model....
+4. score=13.4309 | Natural SUSY Dark Matter: A Window on the GUT Scale
+   category=hep-ph | year=2007
+   abstract: One of the key motivations for supersymmetry is that it provides a natural
+candidate for dark matter. For a long time the density of this candidate
+particle fell within cosmological bounds across much of the SUSY paramet...
+5. score=12.4601 | Stability and hierarchy problems in string inspired braneworld scenarios
+   category=hep-th | year=2007
+   abstract: We generalise the RS braneworld model by taking into account a general
+stringy bulk containing the scalar dilaton field and the two-form Kalb-Ramond
+field, apart from gravity. Assuming small fluctuations around a RS back...
+
+Vector (Pinecone) top-5:
+1. score=0.8645 | Misere quotients for impartial games: Supplementary material
+   category=math.CO | year=2007
+   abstract: We provide supplementary appendices to the paper Misere quotients for
+impartial games. These include detailed solutions to many of the octal games
+discussed in the paper, and descriptions of the algorithms used to comput...
+2. score=0.8533 | Introduction to Phase Transitions in Random Optimization Problems
+   category=cond-mat.stat-mech | year=2007
+   abstract: Notes of the lectures delivered in Les Houches during the Summer School on
+Complex Systems (July 2006)....
+3. score=0.8500 | Abstract Convexity and Cone-Vexing Abstractions
+   category=math.FA | year=2007
+   abstract: This talk is a write-up on some origins of abstract convexity and afew vexing
+limitations on the range of abstraction in convexity....
+4. score=0.8481 | The Compositions of the Differential Operations and Gateaux Directional
+  Derivative
+   category=math.CO | year=2007
+   abstract: In this paper we determine the number of the meaningful compositions of
+higher order of the differential operations and Gateaux directional derivative....
+5. score=0.8473 | Experimental local realism tests without fair sampling assumption
+   category=quant-ph | year=2007
+   abstract: Following the theoretical suggestion of Ref. [1,2], we present experimental
+results addressed to test restricted families of local realistic models, but
+without relying on the fair sampling assumption....
+
+Hybrid (RRF) top-5:
+1. rrf_score=0.0292 | A New Measure of Fine Tuning
+   category=hep-ph | year=2007
+   abstract: The solution to fine tuning is one of the principal motivations for Beyond
+the Standard Model (BSM) Studies. However constraints on new physics indicate
+that many of these BSM models are also fine tuned (although to a mu...
+2. rrf_score=0.0265 | Fine-Tuning in Brane-antibrane Inflation
+   category=hep-th | year=2007
+   abstract: I give a brief overview of brane-antibrane inflation, with emphasis on the
+problems of tuning to get a flat potential in the KKLMMT framework, and recent
+work on the nature of superpotential corrections in that model....
+3. rrf_score=0.0164 | Misere quotients for impartial games: Supplementary material
+   category=math.CO | year=2007
+   abstract: We provide supplementary appendices to the paper Misere quotients for
+impartial games. These include detailed solutions to many of the octal games
+discussed in the paper, and descriptions of the algorithms used to comput...
+4. rrf_score=0.0161 | The NMSSM Solution to the Fine-Tuning Problem, Precision Electroweak
+  Constraints and the Largest LEP Higgs Event Excess
+   category=hep-ph | year=2007
+   abstract: We present an extended study of how the Next to Minimal
+  Supersymmetric Model easily avoids fine-tuning in electroweak symmetry
+breaking for a SM-like light Higgs with mass in the vicinity of $100\gev$, as
+beautifully c...
+5. rrf_score=0.0161 | Introduction to Phase Transitions in Random Optimization Problems
+   category=cond-mat.stat-mech | year=2007
+   abstract: Notes of the lectures delivered in Les Houches during the Summer School on
+Complex Systems (July 2006)....
+
+==========================================================================================
+Запит: Yann LeCun convolutional networks
+
+BM25 top-5:
+1. score=13.5078 | On Punctured Pragmatic Space-Time Codes in Block Fading Channel
+   category=cs.IT | year=2007
+   abstract: This paper considers the use of punctured convolutional codes to obtain
+pragmatic space-time trellis codes over block-fading channel. We show that good
+performance can be achieved even when puncturation is adopted and th...
+2. score=13.1797 | Trellis-Coded Quantization Based on Maximum-Hamming-Distance Binary
+  Codes
+   category=cs.IT | year=2007
+   abstract: Most design approaches for trellis-coded quantization take advantage of the
+duality of trellis-coded quantization with trellis-coded modulation, and use
+the same empirically-found convolutional codes to label the trellis...
+3. score=8.1042 | Response of degree-correlated scale-free networks to stimuli
+   category=cond-mat.dis-nn | year=2007
+   abstract: The response of degree-correlated scale-free attractor networks to stimuli is
+studied. We show that degree-correlated scale-free networks are robust to
+random stimuli as well as the uncorrelated scale-free networks, whil...
+4. score=7.9658 | Optimization in Gradient Networks
+   category=cond-mat.stat-mech | year=2007
+   abstract: Gradient networks can be used to model the dominant structure of complex
+networks. Previous works have focused on random gradient networks. Here we
+study gradient networks that minimize jamming on substrate networks with...
+5. score=7.7701 | Simulation of Robustness against Lesions of Cortical Networks
+   category=q-bio.NC | year=2007
+   abstract: Structure entails function and thus a structural description of the brain
+will help to understand its function and may provide insights into many
+properties of brain systems, from their robustness and recovery from damag...
+
+Vector (Pinecone) top-5:
+1. score=0.8479 | Multilayer Perceptron with Functional Inputs: an Inverse Regression
+  Approach
+   category=math.ST | year=2007
+   abstract: Functional data analysis is a growing research field as more and more
+practical applications involve functional data. In this paper, we focus on the
+problem of regression and classification with functional predictors: th...
+2. score=0.8431 | The Netsukuku network topology
+   category=cs.NI | year=2007
+   abstract: In this document, we describe the fractal structure of the Netsukuku
+topology. Moreover, we show how it is possible to use the QSPN v2 on the high
+levels of the fractal....
+3. score=0.8429 | The Compositions of the Differential Operations and Gateaux Directional
+  Derivative
+   category=math.CO | year=2007
+   abstract: In this paper we determine the number of the meaningful compositions of
+higher order of the differential operations and Gateaux directional derivative....
+4. score=0.8346 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predict the spatiotemporal...
+5. score=0.8314 | Adaptive classification of temporal signals in fixed-weights recurrent
+  neural networks: an existence proof
+   category=math.OC | year=2007
+   abstract: We address the important theoretical question why a recurrent neural network
+with fixed weights can adaptively classify time-varied signals in the presence
+of additive noise and parametric perturbations. We provide a mat...
+
+Hybrid (RRF) top-5:
+1. rrf_score=0.0308 | Optimization in Gradient Networks
+   category=cond-mat.stat-mech | year=2007
+   abstract: Gradient networks can be used to model the dominant structure of complex
+networks. Previous works have focused on random gradient networks. Here we
+study gradient networks that minimize jamming on substrate networks with...
+2. rrf_score=0.0257 | Simulation of Robustness against Lesions of Cortical Networks
+   category=q-bio.NC | year=2007
+   abstract: Structure entails function and thus a structural description of the brain
+will help to understand its function and may provide insights into many
+properties of brain systems, from their robustness and recovery from damag...
+3. rrf_score=0.0164 | On Punctured Pragmatic Space-Time Codes in Block Fading Channel
+   category=cs.IT | year=2007
+   abstract: This paper considers the use of punctured convolutional codes to obtain
+pragmatic space-time trellis codes over block-fading channel. We show that good
+performance can be achieved even when puncturation is adopted and th...
+4. rrf_score=0.0164 | Multilayer Perceptron with Functional Inputs: an Inverse Regression
+  Approach
+   category=math.ST | year=2007
+   abstract: Functional data analysis is a growing research field as more and more
+practical applications involve functional data. In this paper, we focus on the
+problem of regression and classification with functional predictors: th...
+5. rrf_score=0.0161 | Trellis-Coded Quantization Based on Maximum-Hamming-Distance Binary
+  Codes
+   category=cs.IT | year=2007
+   abstract: Most design approaches for trellis-coded quantization take advantage of the
+duality of trellis-coded quantization with trellis-coded modulation, and use
+the same empirically-found convolutional codes to label the trellis...
+
+==========================================================================================
+Запит: making computers understand human emotions from text
+
+BM25 top-5:
+1. score=21.8804 | On the Development of Text Input Method - Lessons Learned
+   category=cs.CL | year=2007
+   abstract: Intelligent Input Methods (IM) are essential for making text entries in many
+East Asian scripts, but their application to other languages has not been fully
+explored. This paper discusses how such tools can contribute to...
+2. score=17.0865 | An Automated Evaluation Metric for Chinese Text Entry
+   category=cs.HC | year=2007
+   abstract: In this paper, we propose an automated evaluation metric for text entry. We
+also consider possible improvements to existing text entry evaluation metrics,
+such as the minimum string distance error rate, keystrokes per ch...
+3. score=16.7227 | Towards Understanding the Origin of Genetic Languages
+   category=q-bio.GN | year=2007
+   abstract: Molecular biology is a nanotechnology that works--it has worked for billions
+of years and in an amazing variety of circumstances. At its core is a system
+for acquiring, processing and communicating information that is un...
+4. score=12.1845 | Detecting anchoring in financial markets
+   category=q-fin.TR | year=2007
+   abstract: Anchoring is a term used in psychology to describe the common human tendency
+to rely too heavily (anchor) on one piece of information when making decisions.
+A trading algorithm inspired by biological motors, introduced b...
+5. score=11.8844 | Maximal C*-algebras of quotients and injective envelopes of C*-algebras
+   category=math.OA | year=2007
+   abstract: A new C*-enlargement of a C*-algebra $A$ nested between the local multiplier
+algebra $M_{\text{loc}}(A)$ of $A$ and its injective envelope $I(A)$ is
+introduced. Various aspects of this maximal C*-algebra of quotients,
+$Q...
+
+Vector (Pinecone) top-5:
+1. score=0.8287 | Opinion Dynamics and Sociophysics
+   category=physics.soc-ph | year=2007
+   abstract: No abstract given. Contents:
+  I. Definition and Introduction
+  II. Schelling Model
+  III. Opinion Dynamics
+  IV. Languages, Hierarchies and Football
+  V. Future Directions...
+2. score=0.8228 | On the Development of Text Input Method - Lessons Learned
+   category=cs.CL | year=2007
+   abstract: Intelligent Input Methods (IM) are essential for making text entries in many
+East Asian scripts, but their application to other languages has not been fully
+explored. This paper discusses how such tools can contribute to...
+3. score=0.8092 | Extracting the hierarchical organization of complex systems
+   category=physics.soc-ph | year=2007
+   abstract: Extracting understanding from the growing ``sea'' of biological and
+socio-economic data is one of the most pressing scientific challenges facing
+us. Here, we introduce and validate an unsupervised method that is able to
+...
+4. score=0.8028 | Novelty and Collective Attention
+   category=cs.CY | year=2007
+   abstract: The subject of collective attention is central to an information age where
+millions of people are inundated with daily messages. It is thus of interest to
+understand how attention to novel items propagates and eventually...
+5. score=0.8021 | Narratives within immersive technologies
+   category=cs.HC | year=2007
+   abstract: The main goal of this project is to research technical advances in order to
+enhance the possibility to develop narratives within immersive mediated
+environments. An important part of the research is concerned with the qu...
+
+Hybrid (RRF) top-5:
+1. rrf_score=0.0325 | On the Development of Text Input Method - Lessons Learned
+   category=cs.CL | year=2007
+   abstract: Intelligent Input Methods (IM) are essential for making text entries in many
+East Asian scripts, but their application to other languages has not been fully
+explored. This paper discusses how such tools can contribute to...
+2. rrf_score=0.0293 | Detecting anchoring in financial markets
+   category=q-fin.TR | year=2007
+   abstract: Anchoring is a term used in psychology to describe the common human tendency
+to rely too heavily (anchor) on one piece of information when making decisions.
+A trading algorithm inspired by biological motors, introduced b...
+3. rrf_score=0.0256 | An Automated Evaluation Metric for Chinese Text Entry
+   category=cs.HC | year=2007
+   abstract: In this paper, we propose an automated evaluation metric for text entry. We
+also consider possible improvements to existing text entry evaluation metrics,
+such as the minimum string distance error rate, keystrokes per ch...
+4. rrf_score=0.0164 | Opinion Dynamics and Sociophysics
+   category=physics.soc-ph | year=2007
+   abstract: No abstract given. Contents:
+  I. Definition and Introduction
+  II. Schelling Model
+  III. Opinion Dynamics
+  IV. Languages, Hierarchies and Football
+  V. Future Directions...
+5. rrf_score=0.0159 | Towards Understanding the Origin of Genetic Languages
+   category=q-bio.GN | year=2007
+   abstract: Molecular biology is a nanotechnology that works--it has worked for billions
+of years and in an amazing variety of circumstances. At its core is a system
+for acquiring, processing and communicating information that is un...

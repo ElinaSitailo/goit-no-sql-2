@@ -1,0 +1,134 @@
+(.venv) PS C:\src\GoIt\goit-no-sql-2> python scripts\04_search.py          
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 52225.41it/s]
+
+Чистий семантичний пошук (top-5):
+1. score=0.8288 | Capturing knots in polymers
+   category=cond-mat.soft | year=2007
+   abstract: This paper visualizes a knot reduction algorithm...
+2. score=0.8263 | Symbolic sensors : one solution to the numerical-symbolic interface
+   category=physics.ins-det | year=2007
+   abstract: This paper introduces the concept of symbolic sensor as an extension of the
+smart sensor one. Then, the links between the physical world and the symbolic
+one are introduced. The creation of symbols is...
+3. score=0.8256 | The Mathematics
+   category=math.HO | year=2007
+   abstract: This is an essay that considering the knowledge structure and language of a
+different nature, attempts to build on an explanation of the object of study
+and characteristics of the mathematical science...
+4. score=0.8170 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predic...
+5. score=0.8146 | Why should anyone care about computing with anyons?
+   category=quant-ph | year=2007
+   abstract: In this article we present a pedagogical introduction of the main ideas and
+recent advances in the area of topological quantum computation. We give an
+overview of the concept of anyons and their exoti...
+
+Фільтр A: RL, останні 5 років, category=cs.LG
+
+Фільтр B: старіші статті (year <= 2015)
+1. score=0.8288 | Capturing knots in polymers
+   category=cond-mat.soft | year=2007
+   abstract: This paper visualizes a knot reduction algorithm...
+2. score=0.8263 | Symbolic sensors : one solution to the numerical-symbolic interface
+   category=physics.ins-det | year=2007
+   abstract: This paper introduces the concept of symbolic sensor as an extension of the
+smart sensor one. Then, the links between the physical world and the symbolic
+one are introduced. The creation of symbols is...
+3. score=0.8256 | The Mathematics
+   category=math.HO | year=2007
+   abstract: This is an essay that considering the knowledge structure and language of a
+different nature, attempts to build on an explanation of the object of study
+and characteristics of the mathematical science...
+4. score=0.8170 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predic...
+5. score=0.8146 | Why should anyone care about computing with anyons?
+   category=quant-ph | year=2007
+   abstract: In this article we present a pedagogical introduction of the main ideas and
+recent advances in the area of topological quantum computation. We give an
+overview of the concept of anyons and their exoti...
+
+Пояснення різниці видачі:
+- У фільтрі A видача звужена до сучасних робіт cs.LG, тому результати більш спеціалізовані.
+- У фільтрі B видані старіші статті: вони можуть бути менш точними щодо сучасної термінології, але краще показують базові/класичні підходи.
+
+Локальний топ-5 для cosine similarity:
+1. score=0.8294 | Capturing knots in polymers
+   category=cond-mat.soft | year=2007
+   abstract: This paper visualizes a knot reduction algorithm...
+2. score=0.8260 | Symbolic sensors : one solution to the numerical-symbolic interface
+   category=physics.ins-det | year=2007
+   abstract: This paper introduces the concept of symbolic sensor as an extension of the
+smart sensor one. Then, the links between the physical world and the symbolic
+one are introduced. The creation of symbols is...
+3. score=0.8254 | The Mathematics
+   category=math.HO | year=2007
+   abstract: This is an essay that considering the knowledge structure and language of a
+different nature, attempts to build on an explanation of the object of study
+and characteristics of the mathematical science...
+4. score=0.8181 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predic...
+5. score=0.8142 | Python for Education: Computational Methods for Nonlinear Systems
+   category=nlin.CD | year=2007
+   abstract: We describe a novel, interdisciplinary, computational methods course that
+uses Python and associated numerical and visualization libraries to enable
+students to implement simulations for a number of d...
+
+Локальний топ-5 для dot product:
+1. score=0.8294 | Capturing knots in polymers
+   category=cond-mat.soft | year=2007
+   abstract: This paper visualizes a knot reduction algorithm...
+2. score=0.8260 | Symbolic sensors : one solution to the numerical-symbolic interface
+   category=physics.ins-det | year=2007
+   abstract: This paper introduces the concept of symbolic sensor as an extension of the
+smart sensor one. Then, the links between the physical world and the symbolic
+one are introduced. The creation of symbols is...
+3. score=0.8254 | The Mathematics
+   category=math.HO | year=2007
+   abstract: This is an essay that considering the knowledge structure and language of a
+different nature, attempts to build on an explanation of the object of study
+and characteristics of the mathematical science...
+4. score=0.8181 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predic...
+5. score=0.8142 | Python for Education: Computational Methods for Nonlinear Systems
+   category=nlin.CD | year=2007
+   abstract: We describe a novel, interdisciplinary, computational methods course that
+uses Python and associated numerical and visualization libraries to enable
+students to implement simulations for a number of d...
+
+Локальний топ-5 для L2-distance (через -distance):
+1. score=-0.5842 | Capturing knots in polymers
+   category=cond-mat.soft | year=2007
+   abstract: This paper visualizes a knot reduction algorithm...
+2. score=-0.5899 | Symbolic sensors : one solution to the numerical-symbolic interface
+   category=physics.ins-det | year=2007
+   abstract: This paper introduces the concept of symbolic sensor as an extension of the
+smart sensor one. Then, the links between the physical world and the symbolic
+one are introduced. The creation of symbols is...
+3. score=-0.5910 | The Mathematics
+   category=math.HO | year=2007
+   abstract: This is an essay that considering the knowledge structure and language of a
+different nature, attempts to build on an explanation of the object of study
+and characteristics of the mathematical science...
+4. score=-0.6032 | Modeling the field of laser welding melt pool by RBFNN
+   category=physics.comp-ph | year=2007
+   abstract: Efficient control of a laser welding process requires the reliable prediction
+of process behavior. A statistical method of field modeling, based on
+normalized RBFNN, can be successfully used to predic...
+5. score=-0.6095 | Python for Education: Computational Methods for Nonlinear Systems
+   category=nlin.CD | year=2007
+   abstract: We describe a novel, interdisciplinary, computational methods course that
+uses Python and associated numerical and visualization libraries to enable
+students to implement simulations for a number 

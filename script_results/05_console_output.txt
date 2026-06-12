@@ -1,0 +1,166 @@
+(.venv) PS C:\src\GoIt\goit-no-sql-2> python scripts\05_chunking.py
+Відібрано 30 статей із найдовшими анотаціями.
+Fixed chunks: 91
+Semantic chunks: 96
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 48445.44it/s]
+Upsert fixed: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:06<00:00,  6.64s/it]
+Upsert semantic: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:06<00:00,  6.01s/it]
+
+Векторів у arxiv-chunks-fixed: 91
+Векторів у arxiv-chunks-semantic: 96
+
+Fixed-size | Запит: transformers for long text understanding
+1. score=0.7420 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: Th in EZ on the development and evolution of life on Earth. We propose that since the Earth and planets were born in a united solar system, there should be some common mechanisms to create the similarities and difference...
+2. score=0.7070 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=2
+   chunk: at FWHM(Hbeta BC) approx. 4000 \kms\ (Sulentic et al. 2000) suggesting that it has more significance in the context of Broad Line Region structure than the more commonly discussed RL vs. RQ dichotomy. Black hole masses c...
+3. score=0.7054 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: [Abridged] We have been exploring a spectroscopic unification for all known types of broad line emitting AGN. The 4D Eigenvector 1 (4DE1) parameter space shows promise as a unification capable of organizing quasar divers...
+4. score=0.6962 | The SN 1987A Link to Gamma-Ray Bursts
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: sufficient matter above that lost to core- collapse (otherwise it would just beg the question of what ELSE they could possibly be). There is no need to invent exotica, such as collapsars or hypernovae, to account for GRB...
+5. score=0.6946 | The photospheric environment of a solar pore with light bridge
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: Pores are one of the various features forming in the photosphere by the emergence of magnetic field onto the solar surface. They lie at the border between tiny magnetic elements and larger sunspots. Light bridges, in suc...
+
+Semantic | Запит: transformers for long text understanding
+1. score=0.7483 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: We propose that since the Earth and planets
+were born in a united solar system, there should be some common mechanisms to
+create the similarities and differences between them. We have tried to develop
+an integrated view ...
+2. score=0.7133 | The photospheric environment of a solar pore with light bridge
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: Pores are one of the various features forming in the photosphere by the
+emergence of magnetic field onto the solar surface. They lie at the border
+between tiny magnetic elements and larger sunspots. Light bridges, in suc...
+3. score=0.7097 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=1
+   chunk: Narrow line Seyfert 1 (NLSy1, with FWHM H beta < 2000 km/s)
+sources belong to this population but do not emerge as a distinct class. The
+systematic blueshift, widely interpreted as arising in a disk wind/outflow, is
+not ...
+4. score=0.7061 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: [Abridged] We have been exploring a spectroscopic unification for all known
+types of broad line emitting AGN. The 4D Eigenvector 1 (4DE1) parameter space
+shows promise as a unification capable of organizing quasar divers...
+5. score=0.7053 | The SN 1987A Link to Gamma-Ray Bursts
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: There is no
+need to invent exotica, such as collapsars or hypernovae, to account for GRBs....
+
+Fixed-size | Запит: reinforcement learning with neural networks
+1. score=0.7306 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: Th in EZ on the development and evolution of life on Earth. We propose that since the Earth and planets were born in a united solar system, there should be some common mechanisms to create the similarities and difference...
+2. score=0.7215 | Dark matter in the Milky Way, II. the HI gas distribution as a tracer of
+  the gravitational potential
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: Context. Gas within a galaxy is forced to establish pressure balance against gravitational forces. The shape of an unperturbed gaseous disk can be used to constrain dark matter models. Aims. We derive the 3-D HI volume d...
+3. score=0.7193 | Distribution of the very first PopIII stars and their relation to bright
+  z~6 quasars
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: We discuss the link between dark matter halos hosting the first PopIII stars and the rare, massive, halos that are generally considered to host bright quasars at high redshift z~6. The main question that we intend to ans...
+4. score=0.7191 | The SN 1987A Link to Gamma-Ray Bursts
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: sufficient matter above that lost to core- collapse (otherwise it would just beg the question of what ELSE they could possibly be). There is no need to invent exotica, such as collapsars or hypernovae, to account for GRB...
+5. score=0.7118 | The Color Magnitude Distribution of Field Galaxies to z~3: the evolution
+  and modeling of the blue sequence
+   category=astro-ph | year=2007 | chunk_idx=1
+   chunk: z~3 to z=0, much of which can be attributed to aging of the stars. The color scatter of the blue sequence is relatively small sigma(U-V) = 0.25 (0.03) and constant to z~3, but notably asymmetrical with a sharp blue ridge...
+
+Semantic | Запит: reinforcement learning with neural networks
+1. score=0.7329 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: We propose that since the Earth and planets
+were born in a united solar system, there should be some common mechanisms to
+create the similarities and differences between them. We have tried to develop
+an integrated view ...
+2. score=0.7223 | Dark matter in the Milky Way, II. the HI gas distribution as a tracer of
+  the gravitational potential
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: Context. Gas within a galaxy is forced to establish pressure balance against
+gravitational forces. The shape of an unperturbed gaseous disk can be used to
+constrain dark matter models. Aims. We derive the 3-D HI volume d...
+3. score=0.7203 | The SN 1987A Link to Gamma-Ray Bursts
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: There is no
+need to invent exotica, such as collapsars or hypernovae, to account for GRBs....
+4. score=0.7194 | Distribution of the very first PopIII stars and their relation to bright
+  z~6 quasars
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: We discuss the link between dark matter halos hosting the first PopIII stars
+and the rare, massive, halos that are generally considered to host bright
+quasars at high redshift z~6. The main question that we intend to ans...
+5. score=0.7194 | A model for the Globular Cluster extreme anomalies
+   category=astro-ph | year=2007 | chunk_idx=1
+   chunk: In this work we suggest that the anomalies are due to the super position of
+two different events: 1) PRIMORDIAL SELF-ENRICHMENT: this is asked to explain
+the oxygen depletion down to a minimum value [O/Fe]~ -0.4; 2) EXTR...
+
+Fixed-size | Запит: graph neural networks for molecular property prediction
+1. score=0.7742 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: Th in EZ on the development and evolution of life on Earth. We propose that since the Earth and planets were born in a united solar system, there should be some common mechanisms to create the similarities and difference...
+2. score=0.7467 | Probing Inward Motions in Starless Cores Using The HCN J = 1-0 Hyperfine
+  Transitions : A Pointing Survey Toward Central Regions
+   category=astro-ph | year=2007 | chunk_idx=1
+   chunk: cores. In some cores, the HCN spectra show different sign of asymmetry from other molecular lines. A few cores show various signs of asymmetry in individual HCN hyperfine lines. The distribution of the velocity shift dV ...
+3. score=0.7400 | Probing Inward Motions in Starless Cores Using The HCN J = 1-0 Hyperfine
+  Transitions : A Pointing Survey Toward Central Regions
+   category=astro-ph | year=2007 | chunk_idx=2
+   chunk: source are nearly similar. These may mean that most of starless cores are in similar kinematic states across the layers of the cores. We identify 17 infall candidates using all available indicators such as the velocity s...
+4. score=0.7393 | Conjectures on exact solution of three - dimensional (3D) simple
+  orthorhombic Ising lattices
+   category=cond-mat.stat-mech | year=2007 | chunk_idx=0
+   chunk: We report the conjectures on the three-dimensional (3D) Ising model on simple orthorhombic lattices, together with the details of calculations for a putative exact solution. Two conjectures, an additional rotation in the...
+5. score=0.7388 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: [Abridged] We have been exploring a spectroscopic unification for all known types of broad line emitting AGN. The 4D Eigenvector 1 (4DE1) parameter space shows promise as a unification capable of organizing quasar divers...
+
+Semantic | Запит: graph neural networks for molecular property prediction
+1. score=0.7755 | Geochemistry of U and Th and its Influence on the Origin and Evolution
+  of the Crust of Earth and the Biological Evolution
+   category=physics.geo-ph | year=2007 | chunk_idx=2
+   chunk: We propose that since the Earth and planets
+were born in a united solar system, there should be some common mechanisms to
+create the similarities and differences between them. We have tried to develop
+an integrated view ...
+2. score=0.7699 | Conjectures on exact solution of three - dimensional (3D) simple
+  orthorhombic Ising lattices
+   category=cond-mat.stat-mech | year=2007 | chunk_idx=0
+   chunk: We report the conjectures on the three-dimensional (3D) Ising model on simple
+orthorhombic lattices, together with the details of calculations for a putative
+exact solution. Two conjectures, an additional rotation in the...
+3. score=0.7454 | CIV 1549 as an Eigenvector 1 Parameter for Active Galactic Nuclei
+   category=astro-ph | year=2007 | chunk_idx=0
+   chunk: [Abridged] We have been exploring a spectroscopic unification for all known
+types of broad line emitting AGN. The 4D Eigenvector 1 (4DE1) parameter space
+shows promise as a unification capable of organizing quasar divers...
+4. score=0.7443 | Observations towards early-type stars in the ESO-POP survey: II --
+  searches for intermediate and high velocity clouds
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: The non-detection of CaII K absorption sets a lower distance
+of 3.2-kpc towards the HVC, which is unsurprising if this feature is indeed
+related to the Magellanic System....
+5. score=0.7419 | An Imaging Survey for Extrasolar Planets around 45 Close, Young Stars
+  with SDI at the VLT and MMT
+   category=astro-ph | year=2007 | chunk_idx=3
+   chunk: From our survey null result, we can rule out
+(at the 98% confidence/2.0sigma level) a model planet population using a planet
+distribution where N(a) $\propto$ constant out to a distance of 45 AU (further
+model assumption...
+
+
+За результатами роботи скрипта 06_hybrid_search.py додай в розділ README порівняльну таблицю для визову останніх трьох методів BM25, векторного пошуку, гібридного пошуку з RRF

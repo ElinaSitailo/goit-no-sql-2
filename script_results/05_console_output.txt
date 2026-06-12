@@ -163,4 +163,3 @@ distribution where N(a) $\propto$ constant out to a distance of 45 AU (further
 model assumption...
 
 
-За результатами роботи скрипта 06_hybrid_search.py додай в розділ README порівняльну таблицю для визову останніх трьох методів BM25, векторного пошуку, гібридного пошуку з RRF
